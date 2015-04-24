@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Gift/get.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,677},{167,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{167,70}</string>
+			</dict>
+			<key>Gift/gift.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,918},{209,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,56}</string>
+			</dict>
+			<key>Gift/gift_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{482,677}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{482,677}</string>
+			</dict>
+			<key>Gift/gift_bg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{482,0},{448,485}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{448,485}</string>
+			</dict>
+			<key>Gift/girl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,677},{206,241}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,241}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Gift.png</string>
+			<key>realTextureFileName</key>
+			<string>Gift.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

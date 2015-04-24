@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Gift" ID="76a5b010-f0ea-4b39-9a64-18d7992e822a" Version="2.2.1.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="5" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="get.png" />
+      <FilePathData Path="gift_1.png" />
+      <FilePathData Path="gift_bg1.png" />
+      <FilePathData Path="girl.png" />
+      <FilePathData Path="get_press.png" />
+      <FilePathData Path="gift_2.png" />
+      <FilePathData Path="gift_3.png" />
+      <FilePathData Path="gift_bg2.png" />
+      <FilePathData Path="gift_bg3.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

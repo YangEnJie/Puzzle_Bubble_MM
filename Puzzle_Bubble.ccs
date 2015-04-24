@@ -1,0 +1,219 @@
+<Solution>
+  <PropertyGroup Name="Puzzle_Bubble" Version="2.2.1.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="PropLayer.csd" Type="Layer" />
+        <Project Name="Background.csd" Type="Layer" />
+        <Project Name="TurnplateLayer.csd" Type="Layer" />
+        <Folder Name="Turnplate">
+          <Image Name="pointer.png" />
+          <Image Name="turnplate_bg.png" />
+          <Image Name="turnplate.png" />
+          <Image Name="template_bg1.png" />
+          <Project Name="TurnGiftNode.csd" Type="Node" />
+          <PlistInfo Name="Turn.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="Default">
+          <Fnt Name="defaultBMFont.fnt" />
+        </Folder>
+        <Image Name="bubble_1.png" />
+        <Image Name="bubble_2.png" />
+        <Image Name="bubble_3.png" />
+        <Image Name="bubble_4.png" />
+        <Image Name="bubble_5.png" />
+        <Image Name="bubble_6.png" />
+        <Image Name="bubble_7.png" />
+        <Image Name="line.png" />
+        <Image Name="zhadan1.png" />
+        <Image Name="caihong1.png" />
+        <Project Name="StartLayer.csd" Type="Layer" />
+        <Folder Name="Prop">
+          <PlistInfo Name="Prop.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="Pause" />
+        <Project Name="PauseLayer.csd" Type="Layer" />
+        <Project Name="ShopLayer.csd" Type="Layer" />
+        <Folder Name="Shop">
+          <Image Name="shop.png" />
+        </Folder>
+        <Image Name="bg.png" />
+        <Image Name="bg_2.png" />
+        <Image Name="bg_1.png" />
+        <PlistParticleFile Name="jiemian_lizi.plist" />
+        <Project Name="GiftLayer.csd" Type="Layer" />
+        <Folder Name="Gift">
+          <PlistInfo Name="Gift.csi" Type="Plist" />
+        </Folder>
+        <Project Name="GameoverLayer.csd" Type="Layer" />
+        <Folder Name="Gameover">
+          <Image Name="gameover_bg.png" />
+          <PlistInfo Name="Gameover.csi" Type="Plist" />
+        </Folder>
+        <Project Name="FailLayer.csd" Type="Layer" />
+        <Folder Name="Start">
+          <PlistInfo Name="Start.csi" Type="Plist" />
+          <ExportJsonFile Name="fengmiannv2.ExportJson" />
+          <ExportJsonFile Name="nvhaidongzuo1.ExportJson" />
+          <PlistParticleFile Name="fengmian_lizi_she.plist" />
+          <ExportJsonFile Name="LOGOdongzuo.ExportJson" />
+          <Project Name="Hint.csd" Type="Node" />
+        </Folder>
+        <Folder Name="BubbleSpecial">
+          <PlistParticleFile Name="daoju_baokai_lizi.plist" />
+          <PlistParticleFile Name="gxgg_lizi.plist" />
+          <PlistParticleFile Name="jindutiao (1).plist" />
+          <ExportJsonFile Name="paopaolong.ExportJson" />
+          <PlistImageFolder PListFile="paopaolong0.plist" Name=".paopaolong0_PList.Dir">
+            <PlistImageFile Name="paopaotang_glow.png" Key="paopaotang_glow.png" />
+            <PlistImageFile Name="guangyun.png" Key="guangyun.png" />
+            <PlistImageFile Name="gg.png" Key="gg.png" />
+            <PlistImageFile Name="y.png" Key="y.png" />
+            <PlistImageFile Name="52452.png" Key="52452.png" />
+            <PlistImageFile Name="20414.png" Key="20414.png" />
+            <PlistImageFile Name="glow01.png" Key="glow01.png" />
+            <PlistImageFile Name="guang3.png" Key="guang3.png" />
+            <PlistImageFile Name="gxgg_glow2.png" Key="gxgg_glow2.png" />
+            <PlistImageFile Name="gongxiguoguan.png" Key="gongxiguoguan.png" />
+          </PlistImageFolder>
+          <PlistParticleFile Name="piaodai_lizi.plist" />
+          <PlistParticleFile Name="yanhua01.plist" />
+          <PlistParticleFile Name="yanhua02.plist" />
+          <PlistParticleFile Name="yanhua03.plist" />
+          <Image Name="paopaolong0.png" />
+          <Image Name="particle_star.png" />
+          <Image Name="piaodai_lizi.png" />
+          <PlistParticleFile Name="benjudefen_shanshuo_lizi.plist" />
+          <ExportJsonFile Name="xiaomaodongzuo.ExportJson" />
+          <ExportJsonFile Name="daoju.ExportJson" />
+          <ExportJsonFile Name="qiehuan.ExportJson" />
+        </Folder>
+        <Folder Name="Particle">
+          <PlistParticleFile Name="benjudefen_shanshuo_lizi.plist" />
+          <PlistParticleFile Name="daoju_lizi.plist" />
+          <PlistParticleFile Name="fengmian_lizi_she.plist" />
+          <PlistParticleFile Name="libaoUI_shanshuo_lizi.plist" />
+          <PlistParticleFile Name="libao_shanshuo_lizi.plist" />
+          <PlistParticleFile Name="lishijilu_shanshuo_lizi.plist" />
+          <PlistParticleFile Name="shangdian_jinbi_shanshuo.plist" />
+          <Image Name="particle_star.png" />
+          <PlistParticleFile Name="luoxia_lizi.plist" />
+        </Folder>
+        <Folder Name="Music">
+          <Audio Name="bgm.mp3" />
+          <Audio Name="Bomb.mp3" />
+          <Audio Name="Click.mp3" />
+          <Audio Name="Clock.mp3" />
+          <Audio Name="end.mp3" />
+          <Audio Name="Ending.mp3" />
+          <Audio Name="Fuhuo.mp3" />
+          <Audio Name="Guoguan.mp3" />
+          <Audio Name="Hit.mp3" />
+          <Audio Name="Remove.mp3" />
+          <Audio Name="start.mp3" />
+        </Folder>
+        <Folder Name="Fnt">
+          <Fnt Name="write_fnt.fnt" />
+          <Fnt Name="gold_fnt.fnt" />
+        </Folder>
+        <Project Name="ReadyGoNode.csd" Type="Node" />
+        <Image Name="beautiful.png" />
+        <Image Name="duang.png" />
+        <Image Name="ferfect.png" />
+        <Image Name="praise.png" />
+        <Image Name="jiemian_lizi.png" />
+        <Image Name="shalou.png" />
+        <Image Name="product.png" />
+        <Image Name="return.png" />
+        <Image Name="return_press.png" />
+        <Image Name="rotat_press.png" />
+        <Image Name="rotate.png" />
+        <Image Name="jewel_2.png" />
+        <Image Name="center.png" />
+        <Image Name="line_1.png" />
+        <Image Name="line_2.png" />
+        <Image Name="line_3.png" />
+        <Image Name="line_4.png" />
+        <Image Name="line_5.png" />
+        <Image Name="line_6.png" />
+        <Image Name="line_7.png" />
+        <Image Name="line_8.png" />
+        <Image Name="line_9.png" />
+        <Image Name="Fail_bg.png" />
+        <Image Name="affirm.png" />
+        <Image Name="affirm_press.png" />
+        <Image Name="cancel.png" />
+        <Image Name="cancel_press.png" />
+        <Image Name="continue.png" />
+        <Image Name="continue_press.png" />
+        <Image Name="get.png" />
+        <Image Name="get_press.png" />
+        <Image Name="getGift.png" />
+        <Image Name="getGift_press.png" />
+        <Image Name="gift_1.png" />
+        <Image Name="gift_2.png" />
+        <Image Name="gift_3.png" />
+        <Image Name="gift_bg.png" />
+        <Image Name="gift_bg1.png" />
+        <Image Name="gift_bg2.png" />
+        <Image Name="gift_bg3.png" />
+        <Image Name="gift_box.png" />
+        <Image Name="giftFont_1.png" />
+        <Image Name="girl.png" />
+        <Image Name="returnHome.png" />
+        <Image Name="returnHome_press.png" />
+        <Image Name="RMB.png" />
+        <Image Name="RMB_press.png" />
+        <Image Name="shop_return.png" />
+        <Folder Name="Fail" />
+        <Image Name="best_bg.png" />
+        <Image Name="best_score.png" />
+        <Image Name="new_game.png" />
+        <Image Name="new_game_press.png" />
+        <Image Name="now_score.png" />
+        <Image Name="record_bg.png" />
+        <Image Name="return_home.png" />
+        <Image Name="return_home_press.png" />
+        <Image Name="bubbleGift.png" />
+        <Image Name="continue_button.png" />
+        <Image Name="continue_button_press.png" />
+        <Image Name="gift.png" />
+        <Image Name="gold_bg.png" />
+        <Image Name="hint.png" />
+        <Image Name="jewelGift.png" />
+        <Image Name="mao.png" />
+        <Image Name="nanhai.png" />
+        <Image Name="new_button.png" />
+        <Image Name="new_button_press.png" />
+        <Image Name="plus.png" />
+        <Image Name="plus_press.png" />
+        <Image Name="shop.png" />
+        <Image Name="start_bg.png" />
+        <Image Name="start_turn.png" />
+        <Image Name="vol.png" />
+        <Image Name="vol_1.png" />
+        <Image Name="check.png" />
+        <Image Name="lucency.png" />
+        <Image Name="00.png" />
+        <Image Name="001.png" />
+        <Image Name="002.png" />
+        <Image Name="02.png" />
+        <Image Name="02_press.png" />
+        <Image Name="04.png" />
+        <Image Name="countdown.png" />
+        <Image Name="countdown_bg.png" />
+        <Image Name="emitter1.png" />
+        <Image Name="emitter2.png" />
+        <Image Name="go.png" />
+        <Image Name="level.png" />
+        <Image Name="levelNum.png" />
+        <Image Name="ready.png" />
+        <Image Name="score_bg.png" />
+        <Image Name="giftFont_2.png" />
+        <Image Name="giftFont_3.png" />
+        <Image Name="exit.png" />
+        <Project Name="ExitLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

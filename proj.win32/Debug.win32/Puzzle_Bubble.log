@@ -1,0 +1,37 @@
+﻿生成启动时间为 2015/4/24 9:32:46。
+     1>项目“D:\MM\Puzzle_Bubble\proj.win32\Puzzle_Bubble.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.4\external" /I"C:\Cocos\frameworks\cocos2d-x-3.4\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.4\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\BubbleLayer.cpp
+         BubbleLayer.cpp
+       PreLinkEvent:
+         if not exist "D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\" mkdir "D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.4\prebuilt\win32\*.*" "D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 49 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\Puzzle_Bubble.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\ /LIBPATH:D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\ /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\Puzzle_Bubble.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\Puzzle_Bubble.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Bubble.obj
+         Debug.win32\BubbleLayer.obj
+         Debug.win32\FailLayer.obj
+         Debug.win32\GameoverLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\GiftLayer.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\PauseLayer.obj
+         Debug.win32\PropLayer.obj
+         Debug.win32\ReturnMenuLayer.obj
+         Debug.win32\ReviveLayer.obj
+         Debug.win32\ShopLayer.obj
+         Debug.win32\StartScene.obj
+         Debug.win32\TouchLayer.obj
+         Debug.win32\TurnplateLayer.obj
+         Debug.win32\UserData.obj
+         Debug.win32\main.obj
+         Puzzle_Bubble.vcxproj -> D:\MM\Puzzle_Bubble\proj.win32\Debug.win32\Puzzle_Bubble.exe
+     1>已完成生成项目“D:\MM\Puzzle_Bubble\proj.win32\Puzzle_Bubble.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.23

@@ -1,0 +1,26 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Gameover" ID="7783e81e-7811-4fb9-ac7e-a58c59ab85fa" Version="2.2.1.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="best_bg.png" />
+      <FilePathData Path="best_score.png" />
+      <FilePathData Path="new_game.png" />
+      <FilePathData Path="now_score.png" />
+      <FilePathData Path="record_bg.png" />
+      <FilePathData Path="return_home.png" />
+      <FilePathData Path="BubbleSpecial/piaodai_lizi.png" />
+      <FilePathData Path="BubbleSpecial/particle_star.png" />
+      <FilePathData Path="continue.png" />
+      <FilePathData Path="getGift.png" />
+      <FilePathData Path="giftFont_1.png" />
+      <FilePathData Path="returnHome.png" />
+      <FilePathData Path="new_game_press.png" />
+      <FilePathData Path="return_home_press.png" />
+      <FilePathData Path="continue_press.png" />
+      <FilePathData Path="returnHome_press.png" />
+      <FilePathData Path="giftFont_2.png" />
+      <FilePathData Path="giftFont_3.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

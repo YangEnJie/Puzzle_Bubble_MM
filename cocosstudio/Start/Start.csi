@@ -1,0 +1,30 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Start" ID="5de7e21f-fa5b-46fd-929f-5f8e2d2d8b8b" Version="2.2.1.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="continue_button.png" />
+      <FilePathData Path="gift.png" />
+      <FilePathData Path="gold_bg.png" />
+      <FilePathData Path="mao.png" />
+      <FilePathData Path="new_button.png" />
+      <FilePathData Path="plus.png" />
+      <FilePathData Path="shop.png" />
+      <FilePathData Path="start_turn.png" />
+      <FilePathData Path="vol.png" />
+      <FilePathData Path="vol_1.png" />
+      <FilePathData Path="affirm.png" />
+      <FilePathData Path="cancel.png" />
+      <FilePathData Path="affirm_press.png" />
+      <FilePathData Path="continue_button_press.png" />
+      <FilePathData Path="new_button_press.png" />
+      <FilePathData Path="plus_press.png" />
+      <FilePathData Path="getGift_press.png" />
+      <FilePathData Path="jewelGift.png" />
+      <FilePathData Path="bubbleGift.png" />
+      <FilePathData Path="check.png" />
+      <FilePathData Path="lucency.png" />
+      <FilePathData Path="cancel_press.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

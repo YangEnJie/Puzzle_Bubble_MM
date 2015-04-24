@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Turn" ID="bb399a55-ae80-4473-b616-59fece6b58fa" Version="2.2.1.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="jiemian_lizi.png" />
+      <FilePathData Path="center.png" />
+      <FilePathData Path="jewel_2.png" />
+      <FilePathData Path="product.png" />
+      <FilePathData Path="return.png" />
+      <FilePathData Path="return_press.png" />
+      <FilePathData Path="rotat_press.png" />
+      <FilePathData Path="rotate.png" />
+      <FilePathData Path="shalou.png" />
+      <FilePathData Path="zhadan1.png" />
+      <FilePathData Path="caihong1.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

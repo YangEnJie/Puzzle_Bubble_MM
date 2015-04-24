@@ -1,0 +1,46 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="Prop" ID="679911ba-a325-4f71-9408-a32dd44e3d3b" Version="2.2.1.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="00.png" />
+      <FilePathData Path="001.png" />
+      <FilePathData Path="002.png" />
+      <FilePathData Path="02.png" />
+      <FilePathData Path="02_press.png" />
+      <FilePathData Path="countdown.png" />
+      <FilePathData Path="countdown_bg.png" />
+      <FilePathData Path="emitter1.png" />
+      <FilePathData Path="emitter2.png" />
+      <FilePathData Path="go.png" />
+      <FilePathData Path="level.png" />
+      <FilePathData Path="levelNum.png" />
+      <FilePathData Path="ready.png" />
+      <FilePathData Path="score_bg.png" />
+      <FilePathData Path="bubble_1.png" />
+      <FilePathData Path="bubble_2.png" />
+      <FilePathData Path="bubble_3.png" />
+      <FilePathData Path="bubble_4.png" />
+      <FilePathData Path="bubble_5.png" />
+      <FilePathData Path="bubble_6.png" />
+      <FilePathData Path="bubble_7.png" />
+      <FilePathData Path="duang.png" />
+      <FilePathData Path="line.png" />
+      <FilePathData Path="line_1.png" />
+      <FilePathData Path="line_2.png" />
+      <FilePathData Path="line_3.png" />
+      <FilePathData Path="line_4.png" />
+      <FilePathData Path="line_5.png" />
+      <FilePathData Path="line_6.png" />
+      <FilePathData Path="line_7.png" />
+      <FilePathData Path="line_8.png" />
+      <FilePathData Path="line_9.png" />
+      <FilePathData Path="praise.png" />
+      <FilePathData Path="shop_return.png" />
+      <FilePathData Path="RMB.png" />
+      <FilePathData Path="RMB_press.png" />
+      <FilePathData Path="ferfect.png" />
+      <FilePathData Path="beautiful.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>
