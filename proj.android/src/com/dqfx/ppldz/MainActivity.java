@@ -26,6 +26,7 @@ import java.util.HashMap;
 import mm.purchasesdk.OnPurchaseListener;
 import mm.purchasesdk.Purchase;
 import mm.purchasesdk.PurchaseCode;
+import mm.purchasesdk.PurchaseSkin;
 
 import org.cocos2dx.cpp.AppActivity;
 import org.cocos2dx.lib.Cocos2dxActivity;
@@ -170,21 +171,43 @@ public class MainActivity extends Cocos2dxActivity {
     purchase = Purchase.getInstance();
     
 	try {
-		purchase.setAppInfo(APPID, APPKEY);
+		purchase.setAppInfo(APPID, APPKEY, PurchaseSkin.SKIN_SYSTEM_ONE);
 	} catch (Exception e1) {
 		e1.printStackTrace();
 	}
 	
 	listener = new IAPListener();
-	purchase.init(mContext, listener);
+	try{
+		
+		purchase.init(mContext, listener);
+	} catch(Exception e1){
+		e1.printStackTrace();
+		return;
+	}
+	
     //IsMusicOn();
    
   }
   
-  public static void payGold(int index){
+  public static void payGold(final int index){
 	  Log.w("calljava","--------------------pay--------------");
 	  //payFailed();
-	  purchase.order(mContext, getPayIdBuyIndex(index), listener);
+	  
+	  ((Activity) mContext).runOnUiThread(new Runnable(){
+
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			Log.w("calljava","--------------------run--------------");
+			purchase.order(mContext, getPayIdBuyIndex(index), listener);
+		}
+		  
+		  
+		  
+		  
+	  });
+	  
+	  
   }
 
   public static void exitGame() {

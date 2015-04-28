@@ -230,7 +230,23 @@ void StartLayer::menuNewGameCallback(Ref* pSender)
 	ui::Helper::doLayout(_startNode);
 	hintNode->setPosition(frameSize/2);
 	layerColor->addChild(hintNode);
+
+
+ 	auto listener = EventListenerTouchOneByOne::create();
+ 	listener->setSwallowTouches(true);
+	listener->onTouchBegan = [=](Touch* touch, Event* even){ return true; };
+	Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, layerColor);
+
+
+
+
+
+
 	addChild(layerColor);
+
+
+
+
 	auto hitBg = (Sprite*)hintNode->getChildByTag(50);
 
 	auto buttonOn = (ui::Button*)hitBg->getChildByTag(53);

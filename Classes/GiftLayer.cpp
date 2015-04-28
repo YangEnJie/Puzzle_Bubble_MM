@@ -86,7 +86,17 @@ bool GiftLayer::init(GiftType type)
 
 void GiftLayer::getButtonCallBack(Ref* Pesender)
 {
-	Director::getInstance()->stopAnimation();
+
+
+	auto giftBg = (Sprite*)_giftNode->getChildByTag(16);
+	auto armature = (Armature*)giftBg->getChildByTag(35);
+	armature->pause();
+	_giftNode->stopAllActions();
+
+
+
+
+
 	int payID = 0;
 	switch(getType()){
 	case Type_New: payID = 1; break;
@@ -96,7 +106,7 @@ void GiftLayer::getButtonCallBack(Ref* Pesender)
 	}
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-	
+	Director::getInstance()->stopAnimation();
  	payGold(payID);
 #endif
 
